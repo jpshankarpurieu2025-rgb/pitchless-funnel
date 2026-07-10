@@ -19,6 +19,9 @@
   header { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px; margin-bottom: 32px; }
   h1 { font-size: 22px; font-weight: 700; letter-spacing: -0.02em; }
   #updated { color: var(--muted); font-size: 13px; }
+  .meta { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; }
+  .sheet-link { color: var(--accent); font-size: 13px; font-weight: 600; text-decoration: none; }
+  .sheet-link:hover { text-decoration: underline; }
   .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; margin-bottom: 32px; }
   .stat { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 16px; }
   .stat .n { font-size: 30px; font-weight: 700; }
@@ -48,7 +51,10 @@
 <body>
 <header>
   <h1>Pitchless — Application Funnel</h1>
-  <span id="updated"></span>
+  <div class="meta">
+    <a class="sheet-link" href="https://docs.google.com/spreadsheets/d/18JeWMZA968ecOfQN2ypQPjn93Bdxz6ehRyjJXfHljco/edit?gid=0#gid=0" target="_blank" rel="noopener">Applications Sheet ↗</a>
+    <span id="updated"></span>
+  </div>
 </header>
 
 <div class="stats" id="stats"></div>

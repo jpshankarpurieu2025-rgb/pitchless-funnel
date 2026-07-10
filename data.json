@@ -1,0 +1,192 @@
+{
+  "updated": "2026-07-10 09:33 UTC",
+  "funnel": [
+    {
+      "stage": "Applied",
+      "count": 23
+    },
+    {
+      "stage": "Interview Invite",
+      "count": 17
+    },
+    {
+      "stage": "Accepted",
+      "count": 15
+    },
+    {
+      "stage": "Payment Sent",
+      "count": 13
+    },
+    {
+      "stage": "Onboarded",
+      "count": 3
+    }
+  ],
+  "side": {
+    "rejected": 1,
+    "waitlisted": 9
+  },
+  "people": [
+    {
+      "name": "a",
+      "city": "a",
+      "submitted": "2026-06-01 10:42:43",
+      "source": "",
+      "stage": "Onboarded"
+    },
+    {
+      "name": "Jay",
+      "city": "Madirdi",
+      "submitted": "2026-06-16 9:21:13",
+      "source": "wl",
+      "stage": "Accepted"
+    },
+    {
+      "name": "Maria Eugenia \u00c1lvarez",
+      "city": "Madrid",
+      "submitted": "2026-06-16 10:45:49",
+      "source": "p",
+      "stage": "Payment Sent"
+    },
+    {
+      "name": "Pratyush",
+      "city": "Madrid",
+      "submitted": "2026-06-16 11:19:43",
+      "source": "lk",
+      "stage": "Waitlisted"
+    },
+    {
+      "name": "Adolfo Viguera Varea",
+      "city": "Madrid",
+      "submitted": "2026-06-16 12:08:48",
+      "source": "wl",
+      "stage": "Accepted"
+    },
+    {
+      "name": "Fernandez",
+      "city": "Madrid",
+      "submitted": "2026-06-16 14:17:38",
+      "source": "wl",
+      "stage": "Waitlisted"
+    },
+    {
+      "name": "Elizabeth Romanova",
+      "city": "Madrid",
+      "submitted": "2026-06-16 15:21:53",
+      "source": "p",
+      "stage": "Waitlisted"
+    },
+    {
+      "name": "Wiktoria Skiba",
+      "city": "Madrid",
+      "submitted": "2026-06-16 15:56:45",
+      "source": "lk",
+      "stage": "Onboarded"
+    },
+    {
+      "name": "Quinton Hiini",
+      "city": "Madrid",
+      "submitted": "2026-06-16 18:37:11",
+      "source": "wl",
+      "stage": "Onboarded"
+    },
+    {
+      "name": "Miguel Perez",
+      "city": "Madrid",
+      "submitted": "2026-06-17 10:08:31",
+      "source": "wl",
+      "stage": "Waitlisted"
+    },
+    {
+      "name": "Alejandro P\u00e9rez",
+      "city": "Madrid",
+      "submitted": "2026-06-18 10:15:50",
+      "source": "lk",
+      "stage": "Payment Sent"
+    },
+    {
+      "name": "Dylan Cadenhead",
+      "city": "Madrid",
+      "submitted": "2026-06-19 17:17:52",
+      "source": "",
+      "stage": "Payment Sent"
+    },
+    {
+      "name": "Miguel Angelo Romo Rodr\u00edguez",
+      "city": "Madrid",
+      "submitted": "2026-06-19 19:37:58",
+      "source": "lk",
+      "stage": "Payment Sent"
+    },
+    {
+      "name": "Viraj Sahu",
+      "city": "Mumbai",
+      "submitted": "2026-06-20 22:23:04",
+      "source": "lk",
+      "stage": "Waitlisted"
+    },
+    {
+      "name": "Javier Cruz",
+      "city": "Madrid",
+      "submitted": "2026-06-22 9:00:16",
+      "source": "lk",
+      "stage": "Payment Sent"
+    },
+    {
+      "name": "Manuel",
+      "city": "Granada, Spain",
+      "submitted": "2026-06-23 16:19:20",
+      "source": "lk",
+      "stage": "Payment Sent"
+    },
+    {
+      "name": "Alex Cobos",
+      "city": "Madrid",
+      "submitted": "2026-06-26 9:10:38",
+      "source": "",
+      "stage": "Payment Sent"
+    },
+    {
+      "name": "Ritvik Krishnan Srivastava",
+      "city": "Madrid",
+      "submitted": "2026-07-01 8:53:23",
+      "source": "p",
+      "stage": "Applied"
+    },
+    {
+      "name": "Hadi Moumeni",
+      "city": "Madrid",
+      "submitted": "2026-07-01 9:57:17",
+      "source": "p",
+      "stage": "Payment Sent"
+    },
+    {
+      "name": "Nicole Rosenberg",
+      "city": "Madrid",
+      "submitted": "2026-07-01 15:26:57",
+      "source": "p",
+      "stage": "Interview"
+    },
+    {
+      "name": "Facundo Exposito",
+      "city": "Madrid",
+      "submitted": "2026-07-02 11:50:36",
+      "source": "linktree",
+      "stage": "Payment Sent"
+    },
+    {
+      "name": "Ignacio P\u00e9rez Olmedo",
+      "city": "Madrid",
+      "submitted": "2026-07-03 11:27:08",
+      "source": "lk",
+      "stage": "Payment Sent"
+    },
+    {
+      "name": "a",
+      "city": "a",
+      "submitted": "2026-07-04 18:10:45",
+      "source": "",
+      "stage": "Applied"
+    }
+  ]
+}

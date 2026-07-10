@@ -9,6 +9,9 @@ from datetime import datetime, timezone
 SHEET_ID = "18JeWMZA968ecOfQN2ypQPjn93Bdxz6ehRyjJXfHljco"
 CSV_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=csv&gid=0"
 
+# Test submissions to exclude from the funnel
+TEST_EMAILS = {"jayshankarpure@gmail.com"}
+
 
 def sent(row, idx, col):
     i = idx.get(col)
@@ -19,6 +22,10 @@ def main():
     raw = urllib.request.urlopen(CSV_URL, timeout=60).read().decode("utf-8")
     rows = list(csv.reader(io.StringIO(raw)))
     header, data = rows[0], [r for r in rows[1:] if any(c.strip() for c in r)]
+
+    email_i = header.index("Email")
+    data = [r for r in data
+            if len(r) > email_i and r[email_i].strip().lower() not in TEST_EMAILS]
 
     # Header has duplicate names (Q1 /10 etc.); map by first occurrence which is
     # fine for the email/status columns we use.

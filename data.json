@@ -1,21 +1,21 @@
 {
-  "updated": "2026-07-10 09:34 UTC",
+  "updated": "2026-07-10 09:36 UTC",
   "funnel": [
     {
       "stage": "Applied",
-      "count": 23
+      "count": 21
     },
     {
       "stage": "Interview Invite",
-      "count": 17
+      "count": 16
     },
     {
       "stage": "Accepted",
-      "count": 15
+      "count": 13
     },
     {
       "stage": "Payment Sent",
-      "count": 13
+      "count": 12
     },
     {
       "stage": "Onboarded",
@@ -23,24 +23,10 @@
     }
   ],
   "side": {
-    "rejected": 1,
-    "waitlisted": 9
+    "rejected": 0,
+    "waitlisted": 8
   },
   "people": [
-    {
-      "name": "a",
-      "city": "a",
-      "submitted": "2026-06-01 10:42:43",
-      "source": "",
-      "stage": "Onboarded"
-    },
-    {
-      "name": "Jay",
-      "city": "Madirdi",
-      "submitted": "2026-06-16 9:21:13",
-      "source": "wl",
-      "stage": "Accepted"
-    },
     {
       "name": "Maria Eugenia \u00c1lvarez",
       "city": "Madrid",
@@ -109,7 +95,7 @@
       "city": "Madrid",
       "submitted": "2026-06-19 17:17:52",
       "source": "",
-      "stage": "Payment Sent"
+      "stage": "Onboarded"
     },
     {
       "name": "Miguel Angelo Romo Rodr\u00edguez",

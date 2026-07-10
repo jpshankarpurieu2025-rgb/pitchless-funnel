@@ -10,7 +10,7 @@ SHEET_ID = "18JeWMZA968ecOfQN2ypQPjn93Bdxz6ehRyjJXfHljco"
 CSV_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=csv&gid=0"
 
 # Test submissions to exclude from the funnel
-TEST_EMAILS = {"jayshankarpure@gmail.com"}
+TEST_EMAILS = {"jayshankarpure@gmail.com", "a@gmail.com"}
 
 
 def sent(row, idx, col):

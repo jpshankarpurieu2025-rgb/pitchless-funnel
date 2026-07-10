@@ -1,12 +1,12 @@
 {
-  "updated": "2026-07-10 09:45 UTC",
+  "updated": "2026-07-10 09:46 UTC",
   "funnel": [
     {
       "stage": "Applied",
       "count": 20
     },
     {
-      "stage": "Interview Invite",
+      "stage": "Interviewed",
       "count": 16
     },
     {
@@ -60,7 +60,7 @@
       "city": "Madrid",
       "submitted": "2026-06-16 15:21:53",
       "source": "p",
-      "stage": "Waitlisted"
+      "stage": "Interviewed"
     },
     {
       "name": "Wiktoria Skiba",
@@ -81,7 +81,7 @@
       "city": "Madrid",
       "submitted": "2026-06-17 10:08:31",
       "source": "wl",
-      "stage": "Waitlisted"
+      "stage": "Interviewed"
     },
     {
       "name": "Alejandro P\u00e9rez",
@@ -151,7 +151,7 @@
       "city": "Madrid",
       "submitted": "2026-07-01 15:26:57",
       "source": "p",
-      "stage": "Interview"
+      "stage": "Interviewed"
     },
     {
       "name": "Facundo Exposito",

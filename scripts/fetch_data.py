@@ -59,11 +59,11 @@ def main():
         elif get("Rejected Email"):
             stage = "Rejected"
         elif get("Waitlist Email") and get("Interview Invite"):
-            stage = "Interviewed"
+            stage = "Interview"
         elif get("Waitlist Email"):
             stage = "Waitlisted"
         elif get("Interview Invite"):
-            stage = "Interviewed"
+            stage = "Interview"
         else:
             stage = "Applied"
         people.append({
@@ -78,7 +78,7 @@ def main():
         "updated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
         "funnel": [
             {"stage": "Applied", "count": applied},
-            {"stage": "Interviewed", "count": interview},
+            {"stage": "Interview", "count": interview},
             {"stage": "Accepted", "count": accepted},
             {"stage": "Payment Sent", "count": payments},
             {"stage": "Onboarded", "count": onboarded},

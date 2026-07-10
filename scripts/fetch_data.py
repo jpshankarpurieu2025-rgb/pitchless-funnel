@@ -20,12 +20,12 @@ EXTRA_PEOPLE = [
      "stage": "Payment Sent"},
 ]
 
-# Startup pairings (matched on first word of Full name)
-TEAMS = {
-    "pablo": "Maria Eugenia", "maria": "Pablo",
-    "issam": "Javier", "javier": "Issam",
-    "dylan": "Quinton", "quinton": "Dylan",
-}
+# Startup pairings (keyed on first word of Full name, lowercased)
+TEAM_PAIRS = [
+    ("pablo", "maria"),
+    ("issam", "javier"),
+    ("dylan", "quinton"),
+]
 
 
 def sent(row, idx, col):
@@ -96,9 +96,15 @@ def main():
     accepted += len(EXTRA_PEOPLE)
     payments += extra_payments
 
+    # Resolve co-founder pairings to full names from the applicant list
+    by_first = {p["name"].split()[0].lower(): p["name"] for p in people if p["name"]}
+    teams = {}
+    for a, b in TEAM_PAIRS:
+        if a in by_first and b in by_first:
+            teams[a], teams[b] = by_first[b], by_first[a]
     for p in people:
         first = p["name"].split()[0].lower() if p["name"] else ""
-        p["team"] = TEAMS.get(first, "")
+        p["team"] = teams.get(first, "")
 
     out = {
         "updated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-10 09:53 UTC",
+  "updated": "2026-07-10 09:55 UTC",
   "funnel": [
     {
       "stage": "Applied",
@@ -33,7 +33,7 @@
       "submitted": "2026-06-16 10:45:49",
       "source": "p",
       "stage": "Payment Sent",
-      "team": "Pablo"
+      "team": "Pablo Albaladejo"
     },
     {
       "name": "Pratyush",
@@ -81,7 +81,7 @@
       "submitted": "2026-06-16 18:37:11",
       "source": "wl",
       "stage": "Onboarded",
-      "team": "Dylan"
+      "team": "Dylan Cadenhead"
     },
     {
       "name": "Miguel Perez",
@@ -105,7 +105,7 @@
       "submitted": "2026-06-19 17:17:52",
       "source": "",
       "stage": "Onboarded",
-      "team": "Quinton"
+      "team": "Quinton Hiini"
     },
     {
       "name": "Miguel Angelo Romo Rodr\u00edguez",
@@ -129,7 +129,7 @@
       "submitted": "2026-06-22 9:00:16",
       "source": "lk",
       "stage": "Payment Sent",
-      "team": "Issam"
+      "team": "Issam Aarida"
     },
     {
       "name": "Manuel",
@@ -193,7 +193,7 @@
       "submitted": "",
       "source": "",
       "stage": "Payment Sent",
-      "team": "Maria Eugenia"
+      "team": "Maria Eugenia \u00c1lvarez"
     },
     {
       "name": "Issam Aarida",
@@ -201,7 +201,7 @@
       "submitted": "",
       "source": "",
       "stage": "Payment Sent",
-      "team": "Javier"
+      "team": "Javier Cruz"
     }
   ]
 }

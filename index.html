@@ -68,7 +68,7 @@
 <div class="card">
   <h2>Applicants</h2>
   <table>
-    <thead><tr><th>Name</th><th>City</th><th>Source</th><th>Submitted</th><th>Stage</th></tr></thead>
+    <thead><tr><th>Name</th><th>Co-founder</th><th>City</th><th>Source</th><th>Submitted</th><th>Stage</th></tr></thead>
     <tbody id="people"></tbody>
   </table>
 </div>
@@ -95,7 +95,7 @@ fetch("data.json?t=" + Date.now()).then(r => r.json()).then(d => {
   const order = {Onboarded:0,"Payment Sent":1,Accepted:2,Interview:3,Applied:4,Waitlisted:5,Rejected:6};
   document.getElementById("people").innerHTML = d.people
     .sort((a,b) => (order[a.stage]??9) - (order[b.stage]??9))
-    .map(p => `<tr><td>${esc(p.name)}</td><td>${esc(p.city)}</td><td>${esc(p.source)}</td>
+    .map(p => `<tr><td>${esc(p.name)}</td><td>${esc(p.team || "—")}</td><td>${esc(p.city)}</td><td>${esc(p.source)}</td>
       <td>${esc((p.submitted||"").split(" ")[0])}</td>
       <td><span class="pill ${esc(p.stage.split(" ")[0])}">${esc(p.stage)}</span></td></tr>`).join("");
 });

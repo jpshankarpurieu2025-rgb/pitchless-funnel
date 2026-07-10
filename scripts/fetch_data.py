@@ -12,6 +12,21 @@ CSV_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=csv&
 # Test submissions to exclude from the funnel
 TEST_EMAILS = {"jayshankarpure@gmail.com", "a@gmail.com"}
 
+# Co-founders who applied together but don't have their own sheet row
+EXTRA_PEOPLE = [
+    {"name": "Pablo Albaladejo", "city": "Madrid", "submitted": "", "source": "",
+     "stage": "Payment Sent"},
+    {"name": "Issam Aarida", "city": "Madrid", "submitted": "", "source": "",
+     "stage": "Payment Sent"},
+]
+
+# Startup pairings (matched on first word of Full name)
+TEAMS = {
+    "pablo": "Maria Eugenia", "maria": "Pablo",
+    "issam": "Javier", "javier": "Issam",
+    "dylan": "Quinton", "quinton": "Dylan",
+}
+
 
 def sent(row, idx, col):
     i = idx.get(col)
@@ -73,6 +88,17 @@ def main():
             "source": get("utm_source"),
             "stage": stage,
         })
+
+    people.extend(EXTRA_PEOPLE)
+    extra_payments = sum(1 for p in EXTRA_PEOPLE if p["stage"] == "Payment Sent")
+    applied += len(EXTRA_PEOPLE)
+    interview += len(EXTRA_PEOPLE)
+    accepted += len(EXTRA_PEOPLE)
+    payments += extra_payments
+
+    for p in people:
+        first = p["name"].split()[0].lower() if p["name"] else ""
+        p["team"] = TEAMS.get(first, "")
 
     out = {
         "updated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-12 20:50 UTC",
+  "updated": "2026-07-12 21:51 UTC",
   "funnel": [
     {
       "stage": "Applied",
@@ -24,7 +24,7 @@
   ],
   "side": {
     "rejected": 1,
-    "waitlisted": 8
+    "waitlisted": 9
   },
   "people": [
     {

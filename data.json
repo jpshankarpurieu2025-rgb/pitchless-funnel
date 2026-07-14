@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14 08:06 UTC",
+  "updated": "2026-07-14 10:46 UTC",
   "funnel": [
     {
       "stage": "Applied",
@@ -7,15 +7,15 @@
     },
     {
       "stage": "Interview",
-      "count": 19
+      "count": 20
     },
     {
       "stage": "Accepted",
-      "count": 16
+      "count": 17
     },
     {
       "stage": "Payment Sent",
-      "count": 15
+      "count": 16
     },
     {
       "stage": "Onboarded",
@@ -23,7 +23,7 @@
     }
   ],
   "side": {
-    "rejected": 1,
+    "rejected": 2,
     "waitlisted": 9
   },
   "people": [
@@ -40,7 +40,7 @@
       "city": "Madrid",
       "submitted": "2026-06-16 11:19:43",
       "source": "lk",
-      "stage": "Waitlisted",
+      "stage": "Rejected",
       "team": ""
     },
     {
@@ -56,7 +56,7 @@
       "city": "Madrid",
       "submitted": "2026-06-16 14:17:38",
       "source": "wl",
-      "stage": "Waitlisted",
+      "stage": "Interview",
       "team": ""
     },
     {
@@ -152,7 +152,7 @@
       "city": "Madrid",
       "submitted": "2026-07-01 8:53:23",
       "source": "p",
-      "stage": "Interview",
+      "stage": "Payment Sent",
       "team": ""
     },
     {

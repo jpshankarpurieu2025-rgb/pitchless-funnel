@@ -1,9 +1,9 @@
 {
-  "updated": "2026-07-21 08:38 UTC",
+  "updated": "2026-07-21 11:09 UTC",
   "funnel": [
     {
       "stage": "Applied",
-      "count": 23
+      "count": 24
     },
     {
       "stage": "Interview",
@@ -19,7 +19,7 @@
     },
     {
       "stage": "Onboarded",
-      "count": 3
+      "count": 4
     }
   ],
   "side": {
@@ -176,7 +176,7 @@
       "city": "Madrid",
       "submitted": "2026-07-02 11:50:36",
       "source": "linktree",
-      "stage": "Payment Sent",
+      "stage": "Onboarded",
       "team": ""
     },
     {
@@ -193,6 +193,14 @@
       "submitted": "2026-07-18 11:14:01",
       "source": "p",
       "stage": "Interview",
+      "team": ""
+    },
+    {
+      "name": "Jose Alejandro Madrazo",
+      "city": "Madrid",
+      "submitted": "2026-07-21 10:57:51",
+      "source": "p",
+      "stage": "Applied",
       "team": ""
     },
     {

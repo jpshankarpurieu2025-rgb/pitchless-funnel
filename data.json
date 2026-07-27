@@ -1,21 +1,21 @@
 {
-  "updated": "2026-07-27 06:37 UTC",
+  "updated": "2026-07-27 10:43 UTC",
   "funnel": [
     {
       "stage": "Applied",
-      "count": 24
+      "count": 25
     },
     {
       "stage": "Interview",
-      "count": 23
+      "count": 24
     },
     {
       "stage": "Accepted",
-      "count": 17
+      "count": 19
     },
     {
       "stage": "Payment Sent",
-      "count": 16
+      "count": 18
     },
     {
       "stage": "Onboarded",
@@ -192,13 +192,21 @@
       "city": "Munich",
       "submitted": "2026-07-18 11:14:01",
       "source": "p",
-      "stage": "Interview",
+      "stage": "Payment Sent",
       "team": ""
     },
     {
       "name": "Jose Alejandro Madrazo",
       "city": "Madrid",
       "submitted": "2026-07-21 10:57:51",
+      "source": "p",
+      "stage": "Payment Sent",
+      "team": ""
+    },
+    {
+      "name": "Agusti Bau Pericon",
+      "city": "Madrid",
+      "submitted": "2026-07-27 9:27:56",
       "source": "p",
       "stage": "Interview",
       "team": ""

@@ -1,9 +1,9 @@
 {
-  "updated": "2026-07-28 19:24 UTC",
+  "updated": "2026-07-28 21:08 UTC",
   "funnel": [
     {
       "stage": "Applied",
-      "count": 25
+      "count": 26
     },
     {
       "stage": "Interview",
@@ -209,6 +209,14 @@
       "submitted": "2026-07-27 9:27:56",
       "source": "p",
       "stage": "Payment Sent",
+      "team": ""
+    },
+    {
+      "name": "Alejandro Caro",
+      "city": "Madrid",
+      "submitted": "2026-07-28 20:15:36",
+      "source": "p",
+      "stage": "Applied",
       "team": ""
     },
     {

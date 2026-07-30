@@ -1,9 +1,9 @@
 {
-  "updated": "2026-07-30 20:14 UTC",
+  "updated": "2026-07-30 22:07 UTC",
   "funnel": [
     {
       "stage": "Applied",
-      "count": 26
+      "count": 28
     },
     {
       "stage": "Interview",
@@ -217,6 +217,22 @@
       "submitted": "2026-07-28 20:15:36",
       "source": "p",
       "stage": "Interview",
+      "team": ""
+    },
+    {
+      "name": "Cristian Salinas",
+      "city": "Madrid",
+      "submitted": "2026-07-30 21:41:37",
+      "source": "",
+      "stage": "Applied",
+      "team": ""
+    },
+    {
+      "name": "Marina Moncayola Lobato",
+      "city": "Madrid",
+      "submitted": "2026-07-30 21:41:37",
+      "source": "lk",
+      "stage": "Applied",
       "team": ""
     },
     {

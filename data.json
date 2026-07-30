@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30 09:30 UTC",
+  "updated": "2026-07-30 11:51 UTC",
   "funnel": [
     {
       "stage": "Applied",
@@ -7,7 +7,7 @@
     },
     {
       "stage": "Interview",
-      "count": 24
+      "count": 25
     },
     {
       "stage": "Accepted",
@@ -216,7 +216,7 @@
       "city": "Madrid",
       "submitted": "2026-07-28 20:15:36",
       "source": "p",
-      "stage": "Applied",
+      "stage": "Interview",
       "team": ""
     },
     {

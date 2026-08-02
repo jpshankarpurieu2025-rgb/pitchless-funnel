@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-02 04:23 UTC",
+  "updated": "2026-08-02 07:31 UTC",
   "funnel": [
     {
       "stage": "Applied",
@@ -19,7 +19,7 @@
     },
     {
       "stage": "Onboarded",
-      "count": 5
+      "count": 7
     }
   ],
   "side": {
@@ -160,7 +160,7 @@
       "city": "Madrid",
       "submitted": "2026-07-01 9:57:17",
       "source": "p",
-      "stage": "Payment Sent",
+      "stage": "Onboarded",
       "team": ""
     },
     {
@@ -192,7 +192,7 @@
       "city": "Munich",
       "submitted": "2026-07-18 11:14:01",
       "source": "p",
-      "stage": "Payment Sent",
+      "stage": "Onboarded",
       "team": ""
     },
     {

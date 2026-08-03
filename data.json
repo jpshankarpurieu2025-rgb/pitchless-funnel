@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-03 15:43 UTC",
+  "updated": "2026-08-03 17:51 UTC",
   "funnel": [
     {
       "stage": "Applied",
-      "count": 28
+      "count": 29
     },
     {
       "stage": "Interview",
@@ -233,6 +233,14 @@
       "submitted": "2026-07-30 21:41:37",
       "source": "lk",
       "stage": "Interview",
+      "team": ""
+    },
+    {
+      "name": "Antonella Abarca Gnecco",
+      "city": "Madrid",
+      "submitted": "2026-08-03 17:49:17",
+      "source": "p",
+      "stage": "Applied",
       "team": ""
     },
     {

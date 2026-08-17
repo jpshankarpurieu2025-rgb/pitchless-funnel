@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-17 01:16 UTC",
+  "updated": "2026-08-17 02:59 UTC",
   "funnel": [
     {
       "stage": "Applied",
-      "count": 29
+      "count": 30
     },
     {
       "stage": "Interview",
@@ -240,6 +240,14 @@
       "city": "Madrid",
       "submitted": "2026-08-03 17:49:17",
       "source": "p",
+      "stage": "Applied",
+      "team": ""
+    },
+    {
+      "name": "Ridwan Alif Adi Nugraha",
+      "city": "Yogyakarta",
+      "submitted": "2026-08-17 2:01:57",
+      "source": "lk",
       "stage": "Applied",
       "team": ""
     },
